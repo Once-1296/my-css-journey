@@ -1,0 +1,26 @@
+/* style.css */
+
+/* * {} is for all elements*/
+* {
+    /*instead of starting on new line places boxes together*/
+    box-sizing: border-box;
+}
+.container{
+    background-color: hsl(0, 0%, 24%);
+    /* vh = viewport height */
+    height: 100vh;
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    /* width, height should be in range of min-max*/
+    min-width: 10%;
+    max-width: 60%;
+    min-height: 10%;
+    max-height: 90%;
+}

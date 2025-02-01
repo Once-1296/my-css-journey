@@ -1,0 +1,37 @@
+/* style.css */
+/*
+    overflow = property that sets the desired behavior when
+               content does not fit in the parent element box
+               (overflows)
+    following are its five states
+    overflow: visible;
+    overflow: hidden;
+    overflow: clip;
+    overflow: scroll;
+    overflow: auto;
+*/
+#p1{
+    border: 2px solid;
+    height: 75px;
+    overflow:visible
+}
+#p2{
+    border: 2px solid;
+    height: 75px;
+    overflow:hidden
+}
+#p3{
+    border: 2px solid;
+    height: 75px;
+    overflow:clip
+}
+#p4{
+    border: 2px solid;
+    height: 75px;
+    overflow:scroll
+}
+#p5{
+    border: 2px solid;
+    height: 75px;
+    overflow:auto
+}

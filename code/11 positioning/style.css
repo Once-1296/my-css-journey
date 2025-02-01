@@ -1,0 +1,51 @@
+
+/* style.css */
+    
+/* position:
+relative = positioned relative to where it normally is
+fixed = positioned relative to the viewport
+absolute = positioned relative to nearest ancestor
+sticky = positioned based on scroll position
+static = default position for an element 
+*/
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188, 100%, 63%);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 100%, 63%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(76, 76%, 45%);
+    position: fixed;
+    /* - reduces size in that direction*/
+    top: -50px;
+    left: -50px;
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: hsla(308, 86%, 59%, 0.548);
+    position: sticky;
+    bottom: 10%;
+    right: 30%;
+}
+#box5{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(76, 76%, 45%);
+    position: static;
+    top: 50%;
+    left: 50%;
+}

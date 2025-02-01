@@ -1,0 +1,13 @@
+/* style.css */
+h1{
+    /* 1st is width , second is style(solid,dotted,dashes,etc), 3rd is color*/
+    border: 3px solid hsl(262, 100%, 56%);
+    border-radius: 20px;
+}
+p{
+    border-bottom: 3px inset red;
+    border-top: 3px outset orange;
+    border-left: 3px dotted yellow;
+    border-right: 3px dashed green;
+    border-radius: 10px;
+}

@@ -1,0 +1,52 @@
+/* style.css */
+/*
+display = property specifies if/how an element is displayed
+
+block-level = start on a new line, take up the full width available
+              (h1, p , div, form, header, footer)
+
+inline = do not start on a new line, width is limited to what is needed
+         (span, a, img)
+*/
+#p1{
+    background-color: hsl(0, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#p2{
+    background-color: hsl(204, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    /* in inline attributes don't matter*/
+    display: inline;
+}
+#p3{
+    background-color: hsl(123, 71%, 49%);
+    width: 100px;
+    height: 100px;
+    /* in inline-block width and height matters*/
+    display: inline-block;
+}
+#p4{
+    background-color: hsl(22, 60%, 48%);
+    width: 100px;
+    height: 100px;
+    /* in hidden invisible but present*/
+    display: inline-block;
+    visibility: hidden;
+}
+#p5{
+    background-color: hsl(278, 51%, 36%);
+    width: 100px;
+    height: 100px;
+    /* none means absent*/
+    display: none
+}
+#p6{
+    background-color: hsl(204, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    /* in inline width and height doesn't matter*/
+    display: inline;
+}

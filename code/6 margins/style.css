@@ -1,0 +1,29 @@
+/* style.css */
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+
+}
+#box1{
+    background-color: hsl(0, 100%, 60%);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#box2{
+    background-color: hsl(189, 100%, 55%);
+    margin-top: auto;
+    margin-left: auto;
+}
+#box3{
+    background-color: hsla(108, 58%, 41%, 0.76);
+    margin-bottom: auto;
+    /*margin: auto centres the box horizontally*/
+    margin: auto;
+}

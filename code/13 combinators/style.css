@@ -1,0 +1,30 @@
+/* style.css */
+
+#container{
+    border: 2px solid;
+}
+
+/* descendant */
+#container p{
+    background-color: hsl(60, 100%, 70%);
+}
+
+
+/* child
+   more priority than descendant */
+#container > p{
+    background-color: hsl(103, 100%, 70%);
+}
+
+
+/* general sibling */
+#container ~ p{
+    background-color: hsl(263, 100%, 70%);
+}
+
+
+/* adjacent sibling
+   more priority than general sibling */
+#container + p{
+    background-color: hsl(0, 77%, 44%);
+}

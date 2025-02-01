@@ -1,0 +1,13 @@
+/* style.css */
+h1{
+    /*first no is horizontal offset, second is vertical offset, third is blur after comma is second/next shadow
+      positive is towards right and down , negative is towards left and up*/
+    text-shadow: 5px 5px 2px hsl(0, 100%, 61%), -5px -5px 2px hsl(197, 100%, 61%);
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 0%, 92%);
+    /*first no is horizontal offset, second is vertical offset, third is blur*/
+    box-shadow: 3px 3px 5px;
+}
