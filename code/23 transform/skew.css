@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+	width: 250px;
+	height: 250px;
+	font-size: 10em;
+	text-align: center;    
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+}
+#b1{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(45deg);
+}
+#b2{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(90deg);
+}
+#b3{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(135deg);
+}
+#b4{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(180deg);
+}
+#b5{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(225deg);
+}
+#b6{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(270deg);
+}
+#b7{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(315deg);
+}
+#b8{
+    background-color: hsl(0, 89%, 45%);
+    transform: skewX(360deg);
+}
+#b9{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(45deg);
+}
+#b10{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(90deg);
+}
+#b11{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(135deg);
+}
+#b12{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(180deg);
+}
+#b13{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(225deg);
+}
+#b14{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(270deg);
+}
+#b15{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(315deg);
+}
+#b16{
+    background-color: hsl(246, 89%, 45%);
+    transform: skewY(360deg);
+}
+#b17{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(45deg);
+}
+#b18{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(90deg);
+}
+#b19{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(135deg);
+}
+#b20{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(180deg);
+}
+#b21{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(225deg);
+}
+#b22{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(270deg);
+}
+#b23{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(315deg);
+}
+#b24{
+    background-color: hsl(130, 84%, 34%);
+    transform: skewZ(360deg);
+}

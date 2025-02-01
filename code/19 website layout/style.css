@@ -1,0 +1,52 @@
+/* style.css */
+*{
+    /*this is to ensure aside ,section and article don't ovewflow because of extra margin or padding*/
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+}
+.navbar h3{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+}
+/*width of aside section and article adds up to 100%*/
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+/* this causes devices with width less than 100 pxs to display aside,section and article 
+in top down manner instead of horizontal one*/
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}

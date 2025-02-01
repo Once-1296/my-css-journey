@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+	width: 250px;
+	height: 250px;
+	font-size: 13em;
+	text-align: center;    
+    /*
+	transform: rotateX(180deg);
+	transform: rotateY(180deg);
+	transform: rotateZ(180deg);
+	transform: scaleX(2);
+	transform: scaleY(2);
+	transform: scale(2, 0.5);
+	transform: skewX(45deg);
+	transform: skewY(45deg);
+	transform: skew(20deg, 20deg);
+    */
+}
+#b1{
+	background:hsl(154, 100%, 69%);
+}
+#b2{
+	background:hsl(222, 100%, 69%);
+}
+#b3{
+	background:hsl(0, 100%, 69%);
+}
+#b4{
+    /*shift towards right and down by 50 px separately*/
+    transform: translateX(50px) translateY(50px);
+	background:hsl(154, 100%, 69%);
+}
+#b5{
+    /*shift towards right and down by 100 px separately*/
+    transform: translate(100px, 100px);
+	background:hsl(222, 100%, 69%);
+}
+#b6{
+    /*shift towards left and up by 50 px separately*/
+    transform: translateX(-50px) translateY(-50px); 
+	background:hsl(0, 100%, 69%);
+}
+#b7{
+    /*shift towards right and down by 25% separately*/
+    transform: translateX(25%) translateY(25%);
+	background:hsl(154, 100%, 69%);
+}
+#b8{
+    /*shift towards right and down by 50% separately*/
+    transform: translate(50%, 50%);
+	background:hsl(222, 100%, 69%);
+}
+#b9{
+    /*shift towards left and up by 50 % separately*/
+    transform: translateX(-50%) translateY(-50%); 
+	background:hsl(0, 100%, 69%);
+}

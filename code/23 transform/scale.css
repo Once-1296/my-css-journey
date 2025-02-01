@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+	width: 250px;
+	height: 250px;
+	font-size: 13em;
+	text-align: center;    
+}
+#b1{
+	background:hsl(154, 100%, 69%);
+}
+#b2{
+	background:hsl(222, 100%, 69%);
+}
+#b3{
+	background:hsl(0, 100%, 69%);
+}
+#b4{
+/*make size half*/
+    transform: scaleX(50%) scaleY(50%);
+	background:hsl(154, 100%, 69%);
+}
+#b5{
+/* make tall*/
+    transform: scaleX(50%);
+	background:hsl(222, 100%, 69%);
+}
+#b6{
+/* make fat*/
+    transform:scaleY(50%); 
+	background:hsl(0, 100%, 69%);
+}
+#b7{
+    /*useless*/
+    transform: scaleZ(50%);
+	background:hsl(154, 100%, 69%);
+}
+#b8{
+    transform: scale(2,1);
+	background:hsl(222, 100%, 69%);
+}
+#b9{
+    transform: scale(1,2);
+	background:hsl(0, 100%, 69%);
+}

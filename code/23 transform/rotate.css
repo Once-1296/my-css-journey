@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+	width: 250px;
+	height: 250px;
+	font-size: 10em;
+	text-align: center;    
+}
+#b1{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(45deg);
+}
+#b2{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(90deg);
+}
+#b3{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(135deg);
+}
+#b4{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(180deg);
+}
+#b5{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(225deg);
+}
+#b6{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(270deg);
+}
+#b7{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(315deg);
+}
+#b8{
+    background-color: hsl(0, 89%, 45%);
+    transform: rotateX(360deg);
+}
+#b9{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(45deg);
+}
+#b10{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(90deg);
+}
+#b11{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(135deg);
+}
+#b12{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(180deg);
+}
+#b13{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(225deg);
+}
+#b14{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(270deg);
+}
+#b15{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(315deg);
+}
+#b16{
+    background-color: hsl(246, 89%, 45%);
+    transform: rotateY(360deg);
+}
+#b17{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(45deg);
+}
+#b18{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(90deg);
+}
+#b19{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(135deg);
+}
+#b20{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(180deg);
+}
+#b21{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(225deg);
+}
+#b22{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(270deg);
+}
+#b23{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(315deg);
+}
+#b24{
+    background-color: hsl(130, 84%, 34%);
+    transform: rotateZ(360deg);
+}

@@ -1,0 +1,36 @@
+/* style.css */
+
+.container1{
+    display: flex;
+    height:100vh;
+    /* default*/
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 20px;
+    border: 20px solid black;
+}
+.container2{
+    display: flex;
+    height:100vh;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    align-content: flex-start;
+    border: 20px solid black;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: hsl(0, 100%, 70%);
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: hsl(111, 100%, 70%);
+}
+

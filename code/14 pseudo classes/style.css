@@ -1,0 +1,41 @@
+/* style.css */
+li:hover{
+    background-color: hsl(78, 94%, 53%);
+}
+li:not(:hover){
+    background-color: hsl(115, 94%, 53%);
+}
+li:nth-child(2n+1){
+    background-color: hsl(0, 88%, 48%);
+}
+a:link{
+    color: hsla(315, 71%, 41%, 0.678);
+}
+a:hover{
+    color: hsla(315, 62%, 70%, 0.897);
+    font-size: 1.3em;
+}
+a:active{
+    color: hsla(327, 84%, 20%, 0.897);
+    font-size: 1.7em;
+}
+a:visited{
+    color: hsla(246, 88%, 48%, 0.897);
+    font-size: 1em;
+}
+button:hover{
+    font-size: 2em;
+    background-color: hsl(106, 73%, 50%);
+}
+button:active{
+    font-size: 4em;
+    background-color: hsl(9, 88%, 48%);
+}
+#greeting p{
+    background-color: hsl(196, 100%, 81%);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
